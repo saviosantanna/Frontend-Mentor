@@ -8,7 +8,11 @@
     font-family: 'Outfit', Arial, Helvetica, sans-serif;
 }
 
-section {
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+main {
     width: 375px;
     height: 100vh;
     display: flex;
@@ -17,34 +21,32 @@ section {
     margin: auto;
 }
 
-body {
-    background-color: hsl(212, 45%, 89%);
-}
-
-main {
+section {
     background-color: white;
     text-align: center;
-    width: 375px;
+    width: 320px;
     border-radius: 20px;
 }
 
 main img {
     border-radius: 30px;
-    max-width: 345px;
+    max-width: 290px;
     padding: 15px;
     margin: auto;
 }
 
 main h1 {
-    font-size: 20px;
-    width: 340px;
+    font-size: 22px;
+    width: 260px;
     margin: auto;
     padding-bottom: 10px;
 }
 
 main p {
+    color: hsl(220, 15%, 55%);
     font-size: 15px;
-    width: 340px;
+    font-weight: 400;
+    width: 260px;
     margin: auto;
     padding-bottom: 15px;
 }
