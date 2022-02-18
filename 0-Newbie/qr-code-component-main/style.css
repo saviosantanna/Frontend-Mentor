@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    width: 375px;
+    width: 320px;
     height: 100vh;
     display: flex;
     flex-direction: column;
