@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
@@ -129,6 +129,6 @@ section > .pagamento:hover {
     background-color: hsla(245, 75%, 52%, 0.5);
 }
 
-section > p:hover {
+.botoes > p:hover {
     color: black;
 }
