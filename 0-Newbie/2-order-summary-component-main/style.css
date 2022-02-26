@@ -9,8 +9,9 @@
 }
 
 body {
-    /*background-color: hsl(225, 100%, 94%);*/
-    background: url("../img/pattern-background-desktop.svg") no-repeat top center;
+    background-color: hsl(225, 100%, 94%);
+    background: url("./images/pattern-background-desktop.svg") no-repeat top center;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,6 +129,21 @@ body {
 
 section > .pagamento:hover {
     background-color: hsla(245, 75%, 52%, 0.5);
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.plano_link a:hover {
+    color: hsla(245, 75%, 52%, 0.5);
+}
+
+.attribution a:hover {
+    color: hsla(245, 75%, 52%, 0.5);
 }
 
 .botoes > p:hover {
