@@ -9,9 +9,9 @@
 }
 
 body {
-    background-color: hsl(225, 100%, 94%);
     background: url("./images/pattern-background-desktop.svg") no-repeat top center;
     background-size: contain;
+    background-color: hsl(225, 100%, 94%);
     display: flex;
     justify-content: center;
     align-items: center;
