@@ -8,26 +8,38 @@
   
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+  <main>
+    <a href="#"><img class="img-equilibrium" src="images/image-equilibrium.jpg" alt="Imagem-NFT"></a>
+    
+    <section class="principal">
+      <h1><a href="#">Equilibrium #3429</a></h1>
+    
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <div class="dados">
+        <div class="info">
+          <img class="img-icon" src="images/icon-ethereum.svg" alt="Icoon Ethereum">
+          <p class="eth">0.041 ETH</p>
+        </div>
+        <div class="info">
+          <img class="img-icon" src="images/icon-clock.svg" alt="Icon Clock">
+          <p>3 days left</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="secundaria">
+      <img  class="img-avatar" src="images/image-avatar.png" alt="Avatar-Jules-Wyvern">
+      <p>Creation of <a href="#">Jules Wyvern</a></p>
+    </section>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/saviosantanna" target="_blank">Sávio Sant'anna</a>.
   </div>
 </body>
 </html>

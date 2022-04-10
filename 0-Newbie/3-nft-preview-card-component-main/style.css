@@ -1,0 +1,119 @@
+/*
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Outfit';
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    max-width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 0;
+    margin: auto;
+}
+
+.img-equilibrium {
+    max-width: 345px;
+    margin: 15px;
+    border-radius: 15px;
+
+}
+
+section {
+    margin: 0 15px;
+}
+
+h1{
+    margin: 10px 0 20px 0;
+    color: white;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+h1 a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    margin: 10px 0;
+    color: hsl(215, 51%, 70%);
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.img-icon{
+    width: 15px;
+    padding-right: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.secundaria {
+    display: flex;
+    align-items: center;
+    border-top: 1px black solid;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+.secundaria a{
+    text-decoration: none;
+    color: white;
+}
+
+.secundaria a:hover{
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+}
+
+.img-avatar {
+    width: 30px;
+    padding-right: 20px;
+    margin: 20px 0;
+}
