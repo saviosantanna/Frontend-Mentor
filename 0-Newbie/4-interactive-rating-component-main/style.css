@@ -52,7 +52,12 @@ li, .img-star {
 
 li:hover {
     background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
 }
+
+/*li:active{
+    background-color: hsl(217, 12%, 63%);
+}*/
 
 button {
     width: 100%;
@@ -67,6 +72,7 @@ button {
 button:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
+    cursor: pointer;
 }
 
 .attribution {
