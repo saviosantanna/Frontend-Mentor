@@ -3,16 +3,14 @@ var numActive;
 
 function noteActive(z){
     var numNote = `note${z}`
-    numActive = z;
-    if (Active == true){
-    window.document.getElementById(numNote).style.backgroundColor = "hsl(217, 12%, 63%)"
-    Active = false;
+    if(Active){
+        window.document.getElementById(numNote).style.backgroundColor = "hsl(217, 12%, 63%)"
+        Active = false;
     } else {
         for (i=1; i<=5; i++){
-            numNote = `note${i}`
-            window.document.getElementById(numNote).style.backgroundColor = "none"
+            window.document.getElementById(`note${i}`).style.cssText = "hsla(213, 20%, 35%, 0.20)"
         }
-        window.document.getElementById(numNote).style.backgroundColor = "none"
+        window.document.getElementById(numNote).style.backgroundColor = "hsl(217, 12%, 63%)"
     }
-    
 }
+/*"hsla(213, 20%, 35%, 0.20)"*/

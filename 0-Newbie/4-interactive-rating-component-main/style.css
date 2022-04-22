@@ -22,6 +22,10 @@ The designs were created to the following widths:
 
 body {
     background-color: hsl(216, 12%, 8%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 main {
@@ -31,6 +35,8 @@ main {
     border-radius: 20px;
     padding: 20px;
     text-align: justify;
+    margin: auto;
+    
 }
 
 ul {
@@ -77,6 +83,7 @@ button:hover {
 
 .attribution {
     font-size: 11px; text-align: center;
+    color: white;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
