@@ -31,7 +31,7 @@ body {
 main#start {
     color: white;
     background-color: hsl(213, 19%, 18%);
-    max-width: 290px;
+    width: 290px;
     border-radius: 20px;
     padding: 20px;
     text-align: justify;

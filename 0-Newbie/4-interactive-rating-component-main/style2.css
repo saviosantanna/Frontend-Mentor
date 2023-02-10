@@ -28,10 +28,19 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.material-symbols-outlined{
+    display: block;
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
 main#finish {
     color: white;
     background-color: hsl(213, 19%, 18%);
-    max-width: 290px;
+    width: 290px;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
