@@ -9,6 +9,7 @@ function noteActive(z){
     newSpan.setAttribute('id', 'txt-note');
     if(Active){
         window.document.getElementById(numNote).style.backgroundColor = "hsl(217, 12%, 63%)"
+        window.document.getElementById(numNote).style.color = "white"
         Active = false;
         Active2 = true;
     } else {
@@ -16,6 +17,7 @@ function noteActive(z){
             window.document.getElementById(`note${i}`).style.cssText = "hsla(213, 20%, 35%, 0.20)"
         }
         window.document.getElementById(numNote).style.backgroundColor = "hsl(217, 12%, 63%)"
+        window.document.getElementById(numNote).style.color = "white"
 
         newSpan.appendChild.createTextNode="doideira"
     }
