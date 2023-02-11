@@ -33,11 +33,16 @@ function noteActive(z){
 }
 
 function tkstate(){
+    if(Active){
+    window.alert(`Please rate our support.`)
+    }else{
     window.document.getElementById('start').hidden=true;
     window.document.getElementById('finish').hidden=false;
     window.document.getElementById('my-style').setAttribute('href', 'style2.css');
-
+    }
 }
+
+
 
 
 
