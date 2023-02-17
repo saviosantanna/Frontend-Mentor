@@ -32,17 +32,18 @@ font-family: 'Montserrat', sans-serif;
     border: 0px;
 }
 
-body, html{
+body{
     background-color: hsl(30,38%,92%);
-    position: absolute;
+    /*position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);*/
+    height: 100%;
+    margin: 20px;
 }
 
 main{
     width: 345px;
-    height: 90vh;
     background-color: white;
     margin: auto;
     border-radius: 15px;
@@ -55,7 +56,7 @@ img{
 }
 
 section{
-    margin: 25px;
+    margin: 15px 25px;
 
 }
 
