@@ -38,15 +38,17 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow-y: hidden;
+    margin: auto;
 }
 
 main{
     width: 345px;
     background-color: white;
-    margin: auto;
     border-radius: 15px;
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
+    margin: 100px;
 }
 
 img{
@@ -54,8 +56,7 @@ img{
 }
 
 section{
-    margin: 15px 25px;
-
+    margin: 25px;
 }
 
 h2{
@@ -112,13 +113,4 @@ button{
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-}
-
-
-
-.attribution {
-    font-size: 11px; text-align: center;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%); 
 }
