@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-query.css">
   
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -17,7 +18,11 @@
 <body>
 
   <main>
-    <img src="images/image-product-mobile.jpg" alt="img-mobile">
+    
+    <picture>
+      <source media="(max-width: 768px)" srcset="images/image-product-mobile.jpg">
+      <img src="images/image-product-desktop.jpg" alt="img-mobile">
+    </picture>
 
     <section>
       <h2>P E R F U M E</h2>

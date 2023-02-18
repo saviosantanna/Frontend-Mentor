@@ -39,6 +39,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     overflow-y: hidden;
+    overflow-x: hidden;
     margin: auto;
 }
 
@@ -113,4 +114,9 @@ button{
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #306652; 
 }

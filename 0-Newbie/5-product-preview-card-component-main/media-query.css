@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px){
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    picture > img{
+        width: 290px;
+        margin-bottom: -4px;
+    }
+
+    h1{
+        margin-bottom: 10px;
+    }
+
+    p{
+        line-height: 22px;
+    }
+
+    section{
+        width: 225px;
+    }
+}
